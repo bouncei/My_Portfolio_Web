@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bouncey Status</title>
+    <!-- <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> -->
+    <!-- <link rel="stylesheet" type="text/css" href="staticfiles/css/style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="
+    sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"  >
+</head>
+<body>
+    <!-- <div class="container">
+        <h1 style ="text-align: centre"> Welcome!</h1>
+        <p> Hello, I'm a freelancing web developer, welcome to my web page.</p>
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{%static 'images/profilepicture.jpg' %}" >
+                    <h4>Hi, I'm josh.</h4>
+                    <!-- <p>I love doing research and learning more about coding</p> -->
+                </div>
+
+
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h3>My Biography</h3>
+                    <br>
+                    <p>      </p>
+
+                    <p>    </p>
+
+                    <p>    </p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/github.png' %}"></li>
+                        <li><img class="social" src="{% static 'images/fiver.png' %}"></li>
+
+                    </ul>
+
+                    <p></p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body"></div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="card card-body">
+                    <h3>What I know</h3>
+
+
+                    <p>Python, C, HTML/CSS, Flutter, Angular and Javascript </p>
+                    <p>Ps: Working on Go, Machine learning, NodeJS, React, SQL, Kotline, Java, TypeScript and Swift. </p>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body"></div>
+
+            </div>
+            <div class="col-md-8">
+                <div class="card card-body"></div>
+
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+
+</html>

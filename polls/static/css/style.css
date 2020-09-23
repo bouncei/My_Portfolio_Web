@@ -1,0 +1,81 @@
+.container h1{
+    text-align: center;
+    padding: 0;
+    color: rgb(59, 58, 45);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.row h3{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+
+
+.col-md-9{
+    border-radius: 90%;
+    
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+    background-color: #f8f8f8;
+    margin-top: 14px;
+}
+
+h4{
+    font-style: italic;
+    font-weight: bold;
+    color: dimgray;
+}
+#profile-wrapper{
+   
+    /* border: transparent; */
+    background-color: #f8f8f870;
+    text-align: center;
+}
+
+#profile-pic{
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row h3{
+    padding-bottom: 8px;
+    border-bottom: solid 0.2px rgba(0, 0, 0, 0.185);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: medium;
+}
+
+.row{
+    border: transparent;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.social{
+    width: 30px;
+    height: 30px;
+}
+
+.social-links ul, li{
+    display: inline-block;
+    list-style-type: none;
+}
