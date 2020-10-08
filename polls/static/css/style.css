@@ -1,6 +1,6 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1518065896235-a4c93e088e7a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
-    background-color: #f8f8f8;
+    background: url("https://c4.wallpaperflare.com/wallpaper/305/547/705/facebook-cover-abstract-wallpaper-preview.jpg");
+    /* background-color: #f8f8f8; */
     margin-top: 14px;
 }
 
@@ -12,6 +12,11 @@ body{
     font-weight: bold;
     font-style: oblique;
     font-size: x-large;
+}
+
+.social:hover {
+    transform: scale(1.5);
+    
 }
 
 .row h3{
@@ -74,11 +79,14 @@ ul{
 a{
     color: black;
     display: inline-block;
+    position: relative;
+    left: 660px;
+    top: 20px;
 
 }
 
 
-.social{
+.social img{
     width: 30px;
     height: 30px;
 }
@@ -86,4 +94,9 @@ a{
 .social-links ul, li{
     display: inline-block;
     list-style-type: none;
+}
+
+#my_bio{
+    /* background-color: blue; */
+    box-shadow: 0 10px 20px rgba(34, 156, 40, 0.19), 0 6px 6px rgba(168, 12, 12, 0.23);
 }

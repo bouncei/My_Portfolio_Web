@@ -18,43 +18,48 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="card card-body" id="profile-wrapper">
+            
                     <img id="profile-pic" src="{%static 'images/me.jpg' %}" >
-                    <h4>Hi, I'm josh.</h4>
-                    <!-- <p>I love doing research and learning more about coding</p> -->
-                </div>
-
-
-            </div>
+                    
+                        
             <div class="col-md-9">
-                <div class="card card-body h-100">
+                <div id="my_bio" class="card card-body h-100">
                     <h3>My Biography</h3>
                     <br>
-                    <p>      </p>
-
-                    <p>    </p>
-
-                    <p>    </p>
+                    <p>
+                        I'm a knowledgeable Web Developer who brings superior front- and back-end design to promote organization-specific website presence. 
+                        Thorough comprehension of complex HTML, CSS and JavaScript programming languages to generate catered webpage design.
+                        Extensive collaboration with python, JavaScript and HTML/CSS to ascertain company expectations and oversee site creation, from initial planning through rollout and support. Detail-oriented approach to maintaining website responsiveness, effectiveness and security.
+                    </p>
+                    <p>
+                        An ambitious web developer who brings enthusiasm and detailed understanding of various programming languages to webpage planning, development and maintenance. 
+                        Experience designing and developing sites from concept to roll out. 
+                        Foundational grasp of various CSS and HTML options, plugins, development platforms and security requirements according to up-to-date standards. 
+                        Data-driven individual with excellent grasp of Google Analytics and other search optimization needs.
+                    </p>
 
                     <ul class="social-links">
                         <li>
-                            <img class="social" src=" {% static 'images/github.png' %}">
-                            <p>
-                                <a class='link' href="https://github.com/bouncei">github</a>
-                            </p>
-                        </li>
-                        <!-- <p>
-                            <a class='link' href="https://github.com/bouncei">github</a>
-                        </p> -->
+                            <a href="https://github.com/bouncei" class="social">
+                                <img src=" {% static 'images/github.png' %}" alt="github" >
+                            </a>
 
+                            </li>
+                    
+                            
+                            <li>
+                                <a href="https://www.linkedin.com/in/joshua-inyang-2753841b7" class="social">
+                                    <img src="{% static 'images/linkedinicon.png' %}" alt="linkedin">
+    
+                                </a>
+                            </li>
 
                         <li>
-                            <img class="social" src="{% static 'images/fiver.png' %}">
-                            <p>
-                                <a class='link' href="#">fiver</a>
-                            </p>
+                            <a href="#" class="social">
+                                <img src=" {% static 'images/fiver.png' %}" alt="fiver" >
+                            </a>
                         </li>
+
 
                     </ul>
 
@@ -69,7 +74,9 @@
         <br>
         <div class="row">
             <div class="col-md-4">
-                <div class="card card-body h-100"></div>
+                <div class="card card-body h-100">
+                    <h3>My First Project </h3>
+                </div>
 
             </div>
             <div class="col-md-8">
