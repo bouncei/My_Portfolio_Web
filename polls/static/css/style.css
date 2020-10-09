@@ -2,6 +2,7 @@ body{
     background: url("https://c4.wallpaperflare.com/wallpaper/305/547/705/facebook-cover-abstract-wallpaper-preview.jpg");
     /* background-color: #f8f8f8; */
     margin-top: 14px;
+    /* display: flex; */
 }
 
 .container h1{
@@ -108,3 +109,42 @@ a{
     text-align: center;
 
 }
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    left: 660px;
+    top: 20px;
+
+}
+
+#my_id h3 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+#my_bio {
+    padding-left: 90px;
+
+}
+
+
+
+/* .topnav a.active {
+    background-color:#4CAF50; 
+    color: white; 
+    position: relative;
+    bottom: 20px;
+    
+
+}  */
+  
