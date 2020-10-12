@@ -1,7 +1,8 @@
-body{
+
+body {
     background: url("https://c4.wallpaperflare.com/wallpaper/305/547/705/facebook-cover-abstract-wallpaper-preview.jpg");
     /* background-color: #f8f8f8; */
-    margin-top: 14px;
+    margin-top: 35px;
     /* display: flex; */
 }
 
@@ -38,7 +39,7 @@ h4{
     color: dimgray;
 }
 #profile-wrapper{
-   
+    
     /* border: transparent; */
     background-color: #f8f8f870;
     text-align: center;
@@ -51,7 +52,7 @@ h4{
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-
+    
 }
 
 .row h3{
@@ -65,6 +66,7 @@ p{
     font-style: normal;
     font-size: medium;
     color:white;
+    text-align: justify;
 }
 
 .row{
@@ -75,13 +77,13 @@ ul{
     padding: 0;
     list-style-type: none;
 }
-a{
+.social-links a{
     color: black;
     display: inline-block;
     position: relative;
     left: 660px;
     top: 20px;
-
+    
 }
 
 
@@ -97,7 +99,7 @@ a{
 
 #my_bio{
     /* background-color: blue; */
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #footer{
@@ -107,7 +109,7 @@ a{
     font-size: medium;
     color:white;
     text-align: center;
-
+    
 }
 
 .topnav {
@@ -129,22 +131,32 @@ a{
 }
 
 #my_id h3 {
-    padding-left: 20px;
-    padding-top: 15px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
 #my_bio {
     padding-left: 90px;
+    
+}
 
+
+nav ul li {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    color: rosybrown;
+    font-weight: bold;
+    margin-right: 1em;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    left: 1140px;
+}
+
+footer h6{
+    font-style: italic;
+    font-weight: lighter;
 }
 
 
 
-/* .topnav a.active {
-    background-color:#4CAF50; 
-    color: white; 
-    position: relative;
-    bottom: 20px;
-    
-
-}  */
-  
